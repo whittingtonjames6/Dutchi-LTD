@@ -1,0 +1,19 @@
+#carouselExampleCaptions {
+    margin: auto auto 100px auto;
+}
+
+#placeholders {
+    margin: 100px auto 200px auto;
+}
+.card {
+    font-size: 15px;
+}
+
+#about-us {
+    margin: auto auto 200px auto;
+}
+
+#contact-us {
+    margin:  auto 40% 100px 40%;
+    line-height: 30px;
+}

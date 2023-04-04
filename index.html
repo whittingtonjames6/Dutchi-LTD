@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutchi LTD</title>
+    <!-- Styles.css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- JavaScript -->
+    <link rel="stylesheet" href="java.js">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap -->
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/about-us-navbar.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Meet the team
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="lucas.html">Lucas Gorodi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="zack.html">Zack Butcher</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="jake.html">Jake Dean</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact us</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="max-height: 1000px;">
+                <img src="images/carousel.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption text-start ">
+                    <h1>Contact us</h1>
+                    <h4>Contact our team today.</h4>
+                    <div class="d-grid gap-2">
+                        <a href="contact-us.html">
+                            <button class="btn btn-primary" type="button">Contact us</button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="max-height: 750px; align-content: center;">
+                <img src="images/carousel-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>With over 10 years experience</h1>
+                </div>
+            </div>
+            <div class="carousel-item" style="max-height: 750px;">
+                <img src="images/carousel-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption text-end">
+                    <h1>See what we can do</h1>
+                    <h4>Click on the button to see some the examples we have made already.</h4>
+                    <div class="d-grid gap-2">
+                        <a href="#">
+                            <button class="btn btn-primary" type="button">Click me</button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!--About the company -->
+
+    <main id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-6 align-self-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>About us.</h2>
+                            <p class="card-text">
+                                Welcome to Dutchi LTD, the leading provider of high-quality bespoke software and
+                                software contracting services. With over 10 years of experience in the industry, our
+                                team of highly experienced software developers is equipped with the skills and know-how
+                                to bring your software dreams to life. We specialize in custom software solutions
+                                designed to meet the individual needs of our clients. Our commitment to providing the
+                                best possible solutions and top-notch customer service ensures reliable and secure
+                                software solutions that help maximize performance and increase productivity. Let us help
+                                you with all your software needs today.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col col-lg-6">
+                    <div class="card">
+                        <img src="images/about-us.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+    <!-- Placeholders -->
+    <main id="placeholders">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img src="images/c-.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2>Jake Dean</h2>
+                            <p class="card-text">Jake is a Firmware Engineer specialised in C, C++, and C#. With over
+                                six
+                                years
+                                of
+                                experience, he is highly skilled in all three languages and is well-versed in a wide
+                                range
+                                of
+                                technologies. He has worked on numerous projects ranging from embedded systems to device
+                                drivers,
+                                and is always up-to-date with the latest trends. His strong problem-solving and
+                                analytical
+                                skills,
+                                combined with his attention to detail, make him a valuable asset to any project. He is
+                                also
+                                a
+                                great
+                                team player and enjoys working with other engineers to create robust and reliable
+                                solutions.
+                                Jake is
+                                passionate about creating high-quality software and is always striving to improve his
+                                code.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img src="images/c-sharp.png" class="card-img-top col-md-6" alt="...">
+                        <div class="card-body">
+                            <h2>Zack Butcher</h2>
+                            <p class="card-text">As a software engineer with over 8 years of experience, Zack has a
+                                strong
+                                foundation in C#, ASP.NET, MVC, and MVVM. He has also worked extensively with webAPI and
+                                has
+                                experience in front-end development. In addition to Zack's skills in these areas, he
+                                also
+                                has
+                                expertise in embedded C and C++, and specialize in the development of custom software
+                                solutions,
+                                in
+                                particular linking embedded systems and software together, wether that is for production
+                                or
+                                manufacturing processes, or marketable products.
+
+                                Throughout his career, he has gained a reputation for delivering high quality software
+                                projects,
+                                and
+                                is skilled in project management. Driven by a passion for building software that not
+                                only
+                                meets
+                                the
+                                needs of the client, but also exceeds their expectations. With strong technical skills
+                                and
+                                ability
+                                to effectively manage complex projects, we are confident in his ability to deliver
+                                successful
+                                software solutions for any project.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-12 col-sm-12">
+                    <div class="card">
+                        <img src="images/python.png" class="card-img-top col-md-6" alt="...">
+                        <div class="card-body">
+                            <h2>Lucas Gorodi</h2>
+                            <p class="card-text">Lucas is a Software Developer specialised in Pinescript, Python and C#.
+                                He
+                                has
+                                been
+                                programming for over five years and is highly experienced in all three languages. He is
+                                an
+                                analytical thinker and loves solving complex problems. He has worked on numerous
+                                projects
+                                ranging
+                                from trading algorithms to web applications, and is always up-to-date with the latest
+                                trends.
+                                His
+                                strong technical skills, combined with his excellent problem-solving abilities, make him
+                                a
+                                valuable
+                                asset to any project. He is also a great communicator and enjoys working with other
+                                engineers to
+                                create robust and reliable solutions. Lucas is enthusiastic about devising inventive and
+                                easy-to-use
+                                software solutions, and is determined to make each venture a triumph.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        </ul>
+        <p class="text-center text-body-secondary">© Dutchi LTD</p>
+    </footer>
+
+</body>
+
+</html>
